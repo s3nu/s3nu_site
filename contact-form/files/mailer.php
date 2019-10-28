@@ -10,7 +10,7 @@ session_start();
 $return_url = "../index.php";
 
 //set the users email address
-$email = "anahitsarao@gmail.com";
+$email = "sandbox7269abd42964483096fc02ed08c82c2b.mailgun.org";
 
 //array of fields in form. (In the format "field_name" => "field_label")
 $form_fields = array(
