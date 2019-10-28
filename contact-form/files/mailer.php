@@ -10,7 +10,7 @@ session_start();
 $return_url = "../index.php";
 
 //set the users email address
-$email = "6f06481ccce587dc736b@cloudmailin.net";
+$email = "http://cloudmailin.com/target/200";
 
 //array of fields in form. (In the format "field_name" => "field_label")
 $form_fields = array(
