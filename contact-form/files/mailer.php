@@ -10,7 +10,7 @@ session_start();
 $return_url = "../index.php";
 
 //set the users email address
-$email = "http://cloudmailin.com/target/200";
+$email = "6f06481ccce587dc736b@cloudmailin.net";
 
 //array of fields in form. (In the format "field_name" => "field_label")
 $form_fields = array(
@@ -28,10 +28,10 @@ $mail_from_email 	= "element1";
 $mail_subject 		= "element2";
 
 //uses the email address defined above as the from email.
-$send_from_users_email = false;
+$send_from_users_email = true;
 
 //sets the PHP setting 'sendmail_from' for use on a windows server.
-$windows_server = false;
+$windows_server = true;
 
 // Set up the error and success messages.
 $message_success = 'Reply Coming Soon';
